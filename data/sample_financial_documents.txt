@@ -1,1 +1,69 @@
+DOCUMENT 1: M&A Due Diligence Summary - Alpha FinTech Pvt. Ltd.
 
+Alpha FinTech Pvt. Ltd. is a digital payments and financial technology company operating in South Asia. The company provides wallet payments, merchant QR payments, bill payments, remittance support, and digital financial services for retail and business customers.
+
+Revenue increased by 18 percent in FY2025 compared to FY2024, mainly driven by higher merchant transaction volume, growth in bill payment services, and increased adoption of digital wallet services. However, operating expenses also increased due to technology infrastructure costs, marketing campaigns, and compliance-related investments.
+
+Key risks include cybersecurity threats, regulatory compliance requirements, transaction fraud, customer data privacy, and dependency on banking partners. The company should strengthen fraud monitoring, improve transaction anomaly detection, and maintain compliance with central bank regulations.
+
+The due diligence review indicates that Alpha FinTech has strong growth potential, but further analysis is required on profitability, customer retention, fraud exposure, and system reliability before investment decisions are made.
+
+
+DOCUMENT 2: Credit Risk Review - Retail Loan Portfolio
+
+The retail loan portfolio showed moderate growth during the review period. Personal loans and small business loans represented the largest share of new lending.
+
+Borrower income, repayment history, loan-to-value ratio, employment stability, and existing debt obligations were identified as important credit risk drivers.
+
+The overall portfolio remains stable, but early warning signs were observed among customers with high debt-to-income ratios and irregular repayment behaviour.
+
+Machine learning models can support credit risk assessment by generating probability of default scores and segmenting customers into low, medium, and high-risk bands.
+
+
+DOCUMENT 3: IFRS 9 Expected Credit Loss Model Summary
+
+The IFRS 9 Expected Credit Loss framework requires banks to estimate credit losses based on Probability of Default, Loss Given Default, and Exposure at Default.
+
+Stage 1 accounts represent performing loans with no significant increase in credit risk. Stage 2 accounts represent loans with increased credit risk. Stage 3 accounts represent credit-impaired loans.
+
+Probability of Default estimates the likelihood that a borrower will default within a defined time period. Loss Given Default estimates the expected loss if the borrower defaults. Exposure at Default represents the outstanding exposure at the time of default.
+
+The model should be validated through back-testing, stability analysis, sensitivity testing, and comparison with actual default outcomes.
+
+
+DOCUMENT 4: Transaction Anomaly Detection Report
+
+Transaction monitoring is important for identifying unusual financial behaviour, fraud indicators, and operational irregularities.
+
+Benford's Law can be used to compare expected digit distribution with actual transaction patterns. Unusual first-digit distribution may indicate potential manipulation, duplicate entries, transaction splitting, or abnormal activity.
+
+A combined anomaly detection approach using statistical rules, machine learning, and business logic can improve fraud monitoring and internal control effectiveness.
+
+
+DOCUMENT 5: Operations Analytics and Branch Feedback Summary
+
+Branch feedback analysis showed that workload pressure, system slowdown, long customer waiting time, and manual process dependency were key operational challenges.
+
+Sentiment analysis of employee feedback showed mixed responses. Positive comments highlighted teamwork and customer service commitment, while negative comments focused on workload pressure, system issues, and limited staff availability.
+
+Management should focus on process automation, system reliability, staffing optimisation, and regular service quality monitoring to improve operational efficiency.
+
+
+DOCUMENT 6: M&A Technology Integration Assessment
+
+Technology integration is a key consideration during mergers and acquisitions.
+
+The target company's systems should be reviewed for scalability, cybersecurity maturity, data quality, system reliability, API readiness, and integration complexity.
+
+Data migration risk should be carefully managed because customer records, transaction history, and product information may exist across multiple systems.
+
+The acquiring company should prepare an integration roadmap covering system architecture, data mapping, security review, testing, user acceptance, and post-merger monitoring.
+
+
+DOCUMENT 7: Client Servicing Analytics Summary
+
+Client servicing data shows that customers most frequently contacted support teams regarding transaction failures, delayed settlements, account access issues, and unclear product charges.
+
+Natural language processing can be used to classify customer complaints and identify emerging service issues.
+
+AI-powered summarisation can help managers quickly understand large volumes of customer feedback and prioritise service improvements.
