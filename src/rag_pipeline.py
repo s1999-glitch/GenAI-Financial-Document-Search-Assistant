@@ -8,10 +8,14 @@ def load_documents(file_path):
     Load financial documents from a text file.
     Each document starts with DOCUMENT 1, DOCUMENT 2, etc.
     """
+
     with open(file_path, "r", encoding="utf-8") as file:
         text = file.read()
 
-    documents = re.split(r"\n(?=DOCUMENT \d+:)", text)
+    # Split documents whenever DOCUMENT 1, DOCUMENT 2, etc. appears
+    documents = re.split(r"(?=DOCUMENT \d+:)", text)
+
+    # Remove empty spaces
     documents = [doc.strip() for doc in documents if doc.strip()]
 
     return documents
@@ -20,8 +24,11 @@ def load_documents(file_path):
 def retrieve_relevant_documents(query, documents, top_k=3):
     """
     Retrieve the most relevant financial documents using TF-IDF and cosine similarity.
-    This represents the retrieval step in a simple RAG workflow.
     """
+
+    if len(documents) == 0:
+        return []
+
     vectorizer = TfidfVectorizer(stop_words="english")
 
     document_vectors = vectorizer.fit_transform(documents)
@@ -45,9 +52,9 @@ def retrieve_relevant_documents(query, documents, top_k=3):
 
 def generate_business_answer(query, retrieved_documents):
     """
-    Generate a simple business-style answer from the retrieved document.
-    This simulates the generation layer of a RAG system.
+    Generate a business-style answer from the retrieved document.
     """
+
     if not retrieved_documents:
         return "No relevant information was found in the available documents."
 
@@ -63,7 +70,7 @@ Based on the retrieved financial document, the most relevant information for you
 
 ### Business Interpretation
 
-This information can support financial analysis, M&A due diligence, credit review, risk assessment, and management decision-making. It helps business users quickly identify important insights from financial documents instead of manually reviewing long reports.
+This information can support financial analysis, M&A due diligence, credit review, risk assessment, and management decision-making. It helps users quickly identify important insights from financial documents instead of manually reviewing long reports.
 
 ### Retrieval Confidence
 
